@@ -31,23 +31,18 @@ To run this project locally, follow these steps:
    git clone https://github.com/gajanansr/sorting-visualizer.git
    ```
 
-2. **Navigate into the project folder**:
-   After cloning the repository, navigate into the project folder:
+2. **Navigate into the project folder**: After cloning the repository, navigate into the project folder:
 
    ```bash
    cd sorting-visualizer
    ```
 
-3. **Install Dependencies**:
-
-  Run the following command to install all the required dependencies:
+3. **Install Dependencies**: Run the following command to install all the required dependencies:
 
    ```bash
    npm install
    ```
-4. **Start the Development Server**:
-
-  Now, start the development server by running:
+4. **Start the Development Server**: Now, start the development server by running:
 
   ```bash
   npm run dev
