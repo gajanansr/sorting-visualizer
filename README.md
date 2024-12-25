@@ -47,6 +47,7 @@ To run this project locally, follow these steps:
   ```bash
   npm run dev
   ```
+
   This will start the app on `http://localhost:3000` in your browser.
 
   Now, you should be able to see the Sorting Visualizer running locally!
