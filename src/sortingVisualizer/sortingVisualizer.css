@@ -1,0 +1,101 @@
+.array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 0 10%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow: hidden;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+
+.array-bar {
+  background-color: #007bff;
+  margin: 0 2px;
+  display: inline-block;
+  height: 100%;
+}
+
+.main-div {
+  background-color: #f5f5f5;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* General button styles */
+button {
+  background-color: #007bff; /* Primary blue color */
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+button:active {
+  transform: translateY(1px); /* Press-down effect */
+}
+
+button:disabled {
+  background-color: #cccccc; /* Gray for disabled buttons */
+  cursor: not-allowed;
+}
+
+/* Dropdown styles */
+select {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin: 10px 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Slider styles */
+input[type="range"] {
+  width: 200px;
+  margin: 10px 5px;
+  appearance: none;
+  height: 8px;
+  background: #d3d3d3;
+  border-radius: 5px;
+  outline: none;
+  transition: background 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+  background-color: #0056b3;
+}
