@@ -40,21 +40,21 @@ To run this project locally, follow these steps:
 
 3. **Install Dependencies**:
 
-Run the following command to install all the required dependencies:
+  Run the following command to install all the required dependencies:
 
    ```bash
    npm install
    ```
 4. **Start the Development Server**:
 
-Now, start the development server by running:
+  Now, start the development server by running:
 
   ```bash
   npm run dev
   ```
-This will start the app on `http://localhost:3000` in your browser.
+  This will start the app on `http://localhost:3000` in your browser.
 
-Now, you should be able to see the Sorting Visualizer running locally!
+  Now, you should be able to see the Sorting Visualizer running locally!
 
 ## Usage
 
