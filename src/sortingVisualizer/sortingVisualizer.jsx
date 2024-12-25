@@ -5,7 +5,7 @@ import {
   getHeapSortAnimations,
   getQuickSortAnimations,
 } from "../sortingAlgorithms/sortingAlgorithms.js";
-import "./SortingVisualizer.css";
+import "./sortingVisualizer.css";
 
 const PRIMARY_COLOR = "#007bff";
 const SECONDARY_COLOR = "red";
